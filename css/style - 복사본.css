@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+html { 
+    font-size: 100%;
+}
+body {
+    font-family: "나눔고딕", NanuGothic,"맑은고딕", MalgunGothic,
+        sans-serif;
+        line-height:1.7;
+        color: #432;
+    }
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+/*hheader------*/
+
+.logo {
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 0%;
+    
+    
+}
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    margin-top: 34;
+    list-style: none;
+    width: 500px;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a {
+    color: #432;
+    font-size: 2rem;
+}
+.main-nav a:hover {
+    color: #0bd;
+    font-size: 2.1rem;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+    margin: 0cm;
+    padding: 0cm;
+}
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+.home-content p {
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+.page-title {
+    font-family: "Black And White Picture", system-ui;
+    font-size: 5rem;
+}
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.page-title {
+    font-size: 5rem;
+    font-family: "Black And White Picture";
+}
+.button {
+    font-size: 1.375rem;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+.button:hover {
+    background: #0090aa;
+}
